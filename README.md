@@ -10,7 +10,7 @@
 | MySQL       | 8.0.27  | https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.27-winx64.zip |
 | PHP         | 7.4.27  | https://windows.php.net/downloads/releases/php-7.4.27-Win32-vc15-x64.zip |
 | Composer    | 2.2.4   | https://getcomposer.org/download/2.2.4/composer.phar |
-| Node.js     | 16.13.1 | https://nodejs.org/dist/v16.13.1/node-v16.13.1-win-x64.zip |
+| Node.js     | 16.13.2 | https://nodejs.org/dist/v16.13.2/node-v16.13.2-win-x64.zip |
 | phpMyAdmin  | 5.1.1   | https://files.phpmyadmin.net/phpMyAdmin/5.1.1/phpMyAdmin-5.1.1-all-languages.zip |
 
 ### Installation
