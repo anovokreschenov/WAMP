@@ -323,8 +323,6 @@ if not exist conf\mysql\my.cnf (
 		echo pid-file = %CD:\=/%/pids/mysql.pid
 		echo.
 		echo slow-query-log = 0
-		echo.
-		echo tls-version = TLSv1.2, TLSv1.3
 	) > conf\mysql\my.cnf
 )
 
