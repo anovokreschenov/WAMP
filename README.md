@@ -7,11 +7,11 @@
 | Application | Version | Source |
 | ----------- | ------- | ------ |
 | Apache      | 2.4.52  | https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.52-win64-VC15.zip |
-| MySQL       | 8.0.27  | https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.27-winx64.zip |
+| MySQL       | 8.0.28  | https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.28-winx64.zip |
 | PHP         | 7.4.27  | https://windows.php.net/downloads/releases/php-7.4.27-Win32-vc15-x64.zip |
-| Composer    | 2.2.4   | https://getcomposer.org/download/2.2.4/composer.phar |
+| Composer    | 2.2.5   | https://getcomposer.org/download/2.2.5/composer.phar |
 | Node.js     | 16.13.2 | https://nodejs.org/dist/v16.13.2/node-v16.13.2-win-x64.zip |
-| phpMyAdmin  | 5.1.1   | https://files.phpmyadmin.net/phpMyAdmin/5.1.1/phpMyAdmin-5.1.1-all-languages.zip |
+| phpMyAdmin  | 5.1.2   | https://files.phpmyadmin.net/phpMyAdmin/5.1.2/phpMyAdmin-5.1.2-all-languages.zip |
 
 ### Installation
 
