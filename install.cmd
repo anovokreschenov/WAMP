@@ -290,7 +290,7 @@ if not exist conf\mysql\my.cnf (
 		echo.
 		echo basedir = %CD:\=/%/bin/mysql
 		echo.
-		echo bind-address = 127.0.0.1
+		echo bind-address = 127.0.0.1,::1
 		echo.
 		echo character-set-server = utf8mb4
 		echo collation-server = utf8mb4_0900_ai_ci
