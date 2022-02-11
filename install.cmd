@@ -322,6 +322,8 @@ if not exist conf\mysql\my.cnf (
 		echo.
 		echo pid-file = %CD:\=/%/pids/mysql.pid
 		echo.
+		echo secure_file_priv = ""
+		echo.
 		echo slow-query-log = 0
 	) > conf\mysql\my.cnf
 )
