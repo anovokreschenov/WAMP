@@ -8,7 +8,7 @@
 | ----------- | ------- | ------ |
 | Apache      | 2.4.52  | https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.52-win64-VC15.zip |
 | MySQL       | 8.0.28  | https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.28-winx64.zip |
-| PHP         | 7.4.27  | https://windows.php.net/downloads/releases/php-7.4.27-Win32-vc15-x64.zip |
+| PHP         | 7.4.28  | https://windows.php.net/downloads/releases/php-7.4.28-Win32-vc15-x64.zip |
 | Composer    | 2.2.6   | https://getcomposer.org/download/2.2.6/composer.phar |
 | Node.js     | 16.14.0 | https://nodejs.org/dist/v16.14.0/node-v16.14.0-win-x64.zip |
 | phpMyAdmin  | 5.1.3   | https://files.phpmyadmin.net/phpMyAdmin/5.1.3/phpMyAdmin-5.1.3-all-languages.zip |
