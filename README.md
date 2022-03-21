@@ -6,7 +6,7 @@
 
 | Application | Version | Source |
 | ----------- | ------- | ------ |
-| Apache      | 2.4.52  | https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.52-win64-VC15.zip |
+| Apache      | 2.4.53  | https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.53-win64-VC15.zip |
 | MySQL       | 8.0.28  | https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.28-winx64.zip |
 | PHP         | 7.4.28  | https://windows.php.net/downloads/releases/php-7.4.28-Win32-vc15-x64.zip |
 | Composer    | 2.2.7   | https://getcomposer.org/download/2.2.7/composer.phar |
