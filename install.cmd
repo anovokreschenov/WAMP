@@ -86,7 +86,7 @@ if not exist bin\node\node.exe (
 	) || (
 		echo FAILED & goto quit
 	)
-	rem set MSVC_RUNTIME_REQUIRED=1
+	set MSVC_RUNTIME_REQUIRED=1
 )
 
 if not exist pma/index.php (
