@@ -17,8 +17,8 @@ for /d %%d in (bin,data,conf,logs,pids,root,temp) do (
 if not exist bin\apache\bin\httpd.exe (
 	if exist bin\apache rd /q /s bin\apache >nul 2>&1
 	(
-		echo. | set /p v="Installing Apache 2.4.53..."^
-		&& powershell -Command "$progressPreference = 'silentlyContinue'; Invoke-WebRequest -Method Get -Uri 'https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.53-win64-VC15.zip' -OutFile '%CD%\temp\apache.zip';" >nul 2>&1^
+		echo. | set /p v="Installing Apache 2.4.54..."^
+		&& powershell -Command "$progressPreference = 'silentlyContinue'; Invoke-WebRequest -Method Get -Uri 'https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.54-win64-VC15.zip' -OutFile '%CD%\temp\apache.zip';" >nul 2>&1^
 		&& powershell -Command "$progressPreference = 'silentlyContinue'; Expand-Archive -Path '%CD%\temp\apache.zip' -DestinationPath '%CD%\temp\apache' -Force;" >nul 2>&1^
 		&& move temp\apache\Apache24 bin\apache >nul 2>&1^
 		&& echo SUCCESS
