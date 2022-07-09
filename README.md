@@ -9,7 +9,7 @@
 | Apache      | 2.4.54  | https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.54-win64-VC15.zip |
 | MySQL       | 8.0.29  | https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.29-winx64.zip |
 | PHP         | 7.4.30  | https://windows.php.net/downloads/releases/php-7.4.30-Win32-vc15-x64.zip |
-| Composer    | 2.3.8   | https://getcomposer.org/download/2.3.8/composer.phar |
+| Composer    | 2.3.9   | https://getcomposer.org/download/2.3.9/composer.phar |
 | Node.js     | 16.15.1 | https://nodejs.org/dist/v16.15.1/node-v16.15.1-win-x64.zip |
 | phpMyAdmin  | 5.2.0   | https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.1.3-all-languages.zip |
 
