@@ -45,8 +45,8 @@ if not exist bin\mysql\bin\mysql.exe (
 if not exist bin\php\php.exe (
 	if exist bin\php rd /q /s bin\php >nul 2>&1
 	(
-		echo. | set /p v="Installing PHP 7.4.32..."^
-		&& powershell -Command "$progressPreference = 'silentlyContinue'; Invoke-WebRequest -Method Get -Uri 'https://windows.php.net/downloads/releases/php-7.4.32-Win32-vc15-x64.zip' -OutFile '%CD%\temp\php.zip';" >nul 2>&1^
+		echo. | set /p v="Installing PHP 7.4.33..."^
+		&& powershell -Command "$progressPreference = 'silentlyContinue'; Invoke-WebRequest -Method Get -Uri 'https://windows.php.net/downloads/releases/php-7.4.33-Win32-vc15-x64.zip' -OutFile '%CD%\temp\php.zip';" >nul 2>&1^
 		&& powershell -Command "$progressPreference = 'silentlyContinue'; Expand-Archive -Path '%CD%\temp\php.zip' -DestinationPath '%CD%\temp\php' -Force;" >nul 2>&1^
 		&& move temp\php bin\php >nul 2>&1^
 		&& echo SUCCESS
