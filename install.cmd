@@ -266,7 +266,7 @@ if not exist conf\apache\httpd.conf (
 		echo ^</IfModule^>
 		echo.
 		echo ^<IfModule php7_module^>
-		echo     PHPIniDir "%CD:\=/%/conf/php/php.ini"
+		echo     PHPIniDir "%CD:\=/%/conf/php"
 		echo     ^<IfModule alias_module^>
 		echo         Alias /phpmyadmin "%CD:\=/%/pma"
 		echo         ^<Directory "%CD:\=/%/pma"^>
