@@ -7,7 +7,7 @@
 | Application | Version | Source |
 | ----------- | ------- | ------ |
 | Apache      | 2.4.54  | https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.54-win64-VC15.zip |
-| MySQL       | 8.0.31  | https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.31-winx64.zip |
+| MySQL       | 8.0.32  | https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.32-winx64.zip |
 | PHP         | 7.4.33  | https://windows.php.net/downloads/releases/php-7.4.33-Win32-vc15-x64.zip |
 | Composer    | 2.5.1   | https://getcomposer.org/download/2.5.1/composer.phar |
 | Node.js     | 18.13.0 | https://nodejs.org/dist/v18.13.0/node-v18.13.0-win-x64.zip |

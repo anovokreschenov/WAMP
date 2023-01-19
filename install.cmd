@@ -31,10 +31,10 @@ if not exist bin\apache\bin\httpd.exe (
 if not exist bin\mysql\bin\mysql.exe (
 	if exist bin\mysql rd /q /s bin\mysql >nul 2>&1
 	(
-		echo. | set /p v="Installing MySQL 8.0.31..."^
-		&& powershell -Command "$progressPreference = 'silentlyContinue'; Invoke-WebRequest -Method Get -Uri 'https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.31-winx64.zip' -OutFile '%CD%\temp\mysql.zip';" >nul 2>&1^
+		echo. | set /p v="Installing MySQL 8.0.32..."^
+		&& powershell -Command "$progressPreference = 'silentlyContinue'; Invoke-WebRequest -Method Get -Uri 'https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.32-winx64.zip' -OutFile '%CD%\temp\mysql.zip';" >nul 2>&1^
 		&& powershell -Command "$progressPreference = 'silentlyContinue'; Expand-Archive -Path '%CD%\temp\mysql.zip' -DestinationPath '%CD%\temp\mysql' -Force;" >nul 2>&1^
-		&& move temp\mysql\mysql-8.0.31-winx64 bin\mysql >nul 2>&1^
+		&& move temp\mysql\mysql-8.0.32-winx64 bin\mysql >nul 2>&1^
 		&& echo SUCCESS
 	) || (
 		echo FAILED & goto quit
