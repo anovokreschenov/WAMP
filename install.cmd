@@ -92,10 +92,10 @@ if not exist bin\node\node.exe (
 if not exist pma/index.php (
 	if exist pma rd /q /s pma >nul 2>&1
 	(
-		echo. | set /p v="Installing phpMyAdmin 5.2.0..."^
-		&& powershell -Command "$progressPreference = 'silentlyContinue'; Invoke-WebRequest -Method Get -Uri 'https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip' -OutFile '%CD%\temp\pma.zip';" >nul 2>&1^
+		echo. | set /p v="Installing phpMyAdmin 5.2.1..."^
+		&& powershell -Command "$progressPreference = 'silentlyContinue'; Invoke-WebRequest -Method Get -Uri 'https://files.phpmyadmin.net/phpMyAdmin/5.2.1/phpMyAdmin-5.2.1-all-languages.zip' -OutFile '%CD%\temp\pma.zip';" >nul 2>&1^
 		&& powershell -Command "$progressPreference = 'silentlyContinue'; Expand-Archive -Path '%CD%\temp\pma.zip' -DestinationPath '%CD%\temp\pma' -Force;" >nul 2>&1^
-		&& move temp\pma\phpMyAdmin-5.2.0-all-languages pma >nul 2>&1^
+		&& move temp\pma\phpMyAdmin-5.2.1-all-languages pma >nul 2>&1^
 		&& echo SUCCESS
 	) || (
 		echo FAILED & goto quit

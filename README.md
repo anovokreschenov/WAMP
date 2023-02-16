@@ -11,7 +11,7 @@
 | PHP         | 7.4.33  | https://windows.php.net/downloads/releases/php-7.4.33-Win32-vc15-x64.zip |
 | Composer    | 2.5.4   | https://getcomposer.org/download/2.5.4/composer.phar |
 | Node.js     | 18.14.0 | https://nodejs.org/dist/v18.14.0/node-v18.14.0-win-x64.zip |
-| phpMyAdmin  | 5.2.0   | https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.1.3-all-languages.zip |
+| phpMyAdmin  | 5.2.1   | https://files.phpmyadmin.net/phpMyAdmin/5.2.1/phpMyAdmin-5.2.1-all-languages.zip |
 
 ### Installation
 
