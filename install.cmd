@@ -78,10 +78,10 @@ if not exist bin\composer\composer.bat (
 if not exist bin\node\node.exe (
 	if exist bin\node rd /q /s bin\node >nul 2>&1
 	(
-		echo. | set /p v="Installing Node.js 18.14.2..."^
-		&& powershell -Command "$progressPreference = 'silentlyContinue'; Invoke-WebRequest -Method Get -Uri 'https://nodejs.org/dist/v18.14.2/node-v18.14.2-win-x64.zip' -OutFile '%CD%\temp\node.zip';" >nul 2>&1^
+		echo. | set /p v="Installing Node.js 18.15.0..."^
+		&& powershell -Command "$progressPreference = 'silentlyContinue'; Invoke-WebRequest -Method Get -Uri 'https://nodejs.org/dist/v18.15.0/node-v18.15.0-win-x64.zip' -OutFile '%CD%\temp\node.zip';" >nul 2>&1^
 		&& powershell -Command "$progressPreference = 'silentlyContinue'; Expand-Archive -Path '%CD%\temp\node.zip' -DestinationPath '%CD%\temp\node' -Force;" >nul 2>&1^
-		&& move temp\node\node-v18.14.2-win-x64 bin\node >nul 2>&1^
+		&& move temp\node\node-v18.15.0-win-x64 bin\node >nul 2>&1^
 		&& echo SUCCESS
 	) || (
 		echo FAILED & goto quit
