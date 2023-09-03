@@ -63,8 +63,8 @@ if not exist bin\apache\bin\libssh2.dll (
 if not exist bin\composer\composer.phar (
 	if not exist bin\composer md bin\composer >nul 2>&1
 	(
-		echo. | set /p v="Installing Composer 2.5.8..."^
-		&& powershell -Command "$progressPreference = 'silentlyContinue'; Invoke-WebRequest -Method Get -Uri 'https://getcomposer.org/download/2.5.8/composer.phar' -OutFile '%CD%\bin\composer\composer.phar';" >nul 2>&1^
+		echo. | set /p v="Installing Composer 2.6.2..."^
+		&& powershell -Command "$progressPreference = 'silentlyContinue'; Invoke-WebRequest -Method Get -Uri 'https://getcomposer.org/download/2.6.2/composer.phar' -OutFile '%CD%\bin\composer\composer.phar';" >nul 2>&1^
 		&& echo SUCCESS
 	) || (
 		echo FAILED & goto quit
@@ -223,7 +223,7 @@ if not exist conf\apache\httpd.conf (
 		echo.
 		echo ServerAdmin admin@localhost
 		echo.
-		echo ServerName localhost:80
+		echo ServerName 127.0.0.1:80
 		echo.
 		echo ServerRoot "%CD:\=/%/bin/apache"
 		echo.
